@@ -2,9 +2,9 @@
 
 import sys
 import unittest
-from PySide.QtGui import QApplication
-from PySide.QtTest import QTest
-from PySide.QtCore import Qt
+from PyQt4.QtGui import QApplication
+from PyQt4.QtTest import QTest
+from PyQt4.QtCore import Qt
 
 from main import MainWindow
 

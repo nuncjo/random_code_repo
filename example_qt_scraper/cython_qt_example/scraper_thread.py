@@ -2,14 +2,14 @@
 
 from queue import Queue
 
-from PySide.QtCore import *
+from PyQt4.QtCore import *
 
 import requests
 
 
 class ScraperThread(QThread):
 
-    result_signal = Signal(dict)
+    result_signal = pyqtSignal(dict)
 
     def __init__(self, parent=None):
         super(ScraperThread, self).__init__(parent)

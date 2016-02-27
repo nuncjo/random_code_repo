@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-from PySide.QtGui import *
+from PyQt4.QtGui import *
 
 from gui.scrape_dialog import Ui_Dialog
 from scraper_thread import ScraperThread

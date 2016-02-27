@@ -3,5 +3,5 @@ from Cython.Build import cythonize
 
 setup(
     name="CythonExample",
-    ext_modules=cythonize("*.pyx"),
+    ext_modules=cythonize(["*.pyx", 'gui\*.pyx']),
 )

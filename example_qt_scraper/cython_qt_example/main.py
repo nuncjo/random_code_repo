@@ -2,7 +2,7 @@
 
 import sys
 
-from PySide.QtGui import *
+from PyQt4.QtGui import *
 
 from gui.main_window import Ui_MainWindow
 from scraper import ScraperDialog
